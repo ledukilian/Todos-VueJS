@@ -33,7 +33,7 @@ const handleKeydown = (e: KeyboardEvent) => {
       />
       <button
         type="submit"
-        class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-3 transition-colors duration-200"
+        class="bg-emerald-400 hover:bg-emerald-500 text-white px-4 py-3 transition-colors duration-200"
       >
         Ajouter
       </button>

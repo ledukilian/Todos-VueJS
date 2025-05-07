@@ -26,9 +26,10 @@ const hasTodos = computed(() => props.todos.length > 0);
         @delete="id => emit('delete', id)"
       />
     </TransitionGroup>
-    
-    <div v-if="!hasTodos" class="text-center py-8 text-slate-500 animate-fade-in">
-      <p>Aucune tâche pour le moment. Commencez par en ajouter une !</p>
+
+    <div v-if="!hasTodos" class="text-center pt-8 text-slate-500 animate-fade-in">
+      <p class="text-sm mb-8 text-gray-400">Aucune tâche pour le moment.</p>
+      <p class="text-sm">Ajoutez votre première tâche pour commencer 😀</p>
     </div>
   </div>
 </template>

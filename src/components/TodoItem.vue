@@ -21,7 +21,7 @@ const handleDelete = () => {
 
 const itemClasses = computed(() => {
   return props.todo.completed 
-    ? 'bg-slate-50 border-slate-200 text-slate-500 line-through'
+    ? 'bg-slate-50 border-slate-200 text-slate-300'
     : 'bg-white border-slate-200 text-slate-800';
 });
 
@@ -52,7 +52,7 @@ const checkIcon = computed(() => {
     
     <button 
       @click="handleDelete"
-      class="flex-shrink-0 ml-2 text-slate-400 opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:text-red-500 p-1"
+      class="flex-shrink-0 ml-2 text-slate-300 transition-opacity duration-200 hover:text-red-500 p-1"
       title="Supprimer"
     >
       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

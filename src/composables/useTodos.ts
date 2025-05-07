@@ -17,7 +17,7 @@ export function useTodos() {
     localStorage.setItem('vue-todos', JSON.stringify(newTodos));
   }, { deep: true });
   
-  // Add a new todo
+  // Add a new task
   const addTodo = (text: string): void => {
     if (text.trim()) {
       const newTodo: Todo = {
@@ -31,7 +31,7 @@ export function useTodos() {
     }
   };
   
-  // Toggle todo completion status
+  // Toggle task completion status
   const toggleTodo = (id: string): void => {
     const todo = todos.value.find(todo => todo.id === id);
     if (todo) {
@@ -39,7 +39,7 @@ export function useTodos() {
     }
   };
   
-  // Delete a todo
+  // Delete a task
   const deleteTodo = (id: string): void => {
     todos.value = todos.value.filter(todo => todo.id !== id);
   };
