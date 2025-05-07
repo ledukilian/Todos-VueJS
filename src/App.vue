@@ -24,7 +24,7 @@ const { todos, addTodo, toggleTodo, deleteTodo } = useTodos();
 
     <footer class="mt-8 text-center text-xs text-slate-400">
       <p>Réalisé avec <span class="text-red-500">❤️</span> par <span class="font-semibold">ledukilian</span></p>
-      <p>Conçu avec <span class="text-emerald-500 font-semibold">Vue 3</span>, <span class="text-gray-500 font-semibold">Typescript</span> et <span class="text-indigo-500 font-semibold">Tailwind CSS</span></p>
+      <p>Conçu avec <span class="text-emerald-500 font-semibold">Vue 3</span>, <span class="text-violet-700 font-semibold">Vite</span>, <span class="text-gray-500 font-semibold">Typescript</span> et <span class="text-indigo-500 font-semibold">Tailwind CSS</span></p>
     </footer>
   </div>
 </template>
