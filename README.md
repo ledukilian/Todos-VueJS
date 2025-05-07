@@ -68,3 +68,13 @@ npm run lint
 # Formater le code
 npm run format 
 ```
+
+### 🚀 Déploiement sur Github Pages
+
+```bash
+# Créer le build
+npm run build 
+
+# Envoyer le build sur la branche gh-pages
+npm run deploy
+```
