@@ -53,7 +53,7 @@ npm install
 npm run dev 
 ```
 
-### 🔧 Autres commandes
+### ⚙️ Autres commandes
 
 ```bash
 # Créer le build

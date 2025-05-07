@@ -1,6 +1,10 @@
 # Logs
 logs
 
+# Build
+tsconfig.app.tsbuildinfo
+tsconfig.node.tsbuildinfo
+
 # Dependency directories
 node_modules
 dist
