@@ -1,14 +1,16 @@
 ## 🦕 VueToDo
 
+![img.png](img.png)
+
 Une application ToDo simple développée avec **Vue 3**, **TypeScript**, **TailwindCSS**, et **Vite**.  
 Les tâches sont enregistrées dans le `localStorage` pour une persistance locale.
 
 ### 🛠️ Stack Technique
 
-- **Vue 3** avec `<script setup>`
-- **TypeScript** (interfaces, pas de classes)
-- **TailwindCSS** pour le design
-- **Vite** pour le build
+- **Vue 3**
+- **TypeScript**
+- **TailwindCSS**
+- **Vite**
 
 ### 💡 Fonctionnalités
 
