@@ -23,17 +23,17 @@ const handleKeydown = (e: KeyboardEvent) => {
 
 <template>
   <form @submit.prevent="handleSubmit" class="mb-6">
-    <div class="flex items-center shadow-soft rounded-lg overflow-hidden border border-slate-200 focus-within:border-primary-400 focus-within:ring-2 focus-within:ring-primary-100 transition-all">
+    <div class="flex shadow-soft rounded-lg overflow-hidden border border-slate-200 focus-within:border-primary-400 focus-within:ring-2 focus-within:ring-primary-100 transition-all">
       <input
-        v-model="todoText"
-        @keydown="handleKeydown"
-        type="text"
-        placeholder="Ajouter une tâche..."
-        class="flex-grow p-3 bg-white text-slate-800 focus:outline-none"
+          v-model="todoText"
+          @keydown="handleKeydown"
+          type="text"
+          placeholder="Ajouter une tâche..."
+          class="flex-grow p-3 bg-white text-slate-800 focus:outline-none"
       />
       <button
           type="submit"
-          class="bg-emerald-400 hover:bg-emerald-500 text-white px-4 py-3 transition-colors duration-200 flex items-center justify-center"
+          class="bg-emerald-400 hover:bg-emerald-500 text-white px-4 flex items-center justify-center self-stretch"
       >
         <svg
             xmlns="http://www.w3.org/2000/svg"
